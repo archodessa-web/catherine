@@ -1,0 +1,37 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Fullcalendar
+@import '~fullcalendar/dist/fullcalendar.min.css';
+
+// FontAwesome
+@import '~@fortawesome/fontawesome-free/scss/fa-brands';
+@import '~@fortawesome/fontawesome-free/scss/fa-regular';
+@import '~@fortawesome/fontawesome-free/scss/fa-solid';
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.register-selector {
+
+  & > div > a {
+    background-color: #fff;
+    text-align: center;
+    border: 1px solid #aaa;
+    border-radius: 1rem;
+    display: block;
+    margin: 1rem;
+    padding: 4rem;
+    font-size: 1.3rem;
+  }
+}
